@@ -1,0 +1,10 @@
+version: '3'
+services:
+  cwp-mabritec-server:
+    build: .
+    ports:
+      - "8080:8080"
+  simple-web:
+    build: ./simpleweb
+    ports:
+      - "8050:8050"
