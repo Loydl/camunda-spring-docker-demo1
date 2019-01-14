@@ -14,6 +14,12 @@ Docker CLI (optional)<br>
 `docker build -t loydlconsulting/cwp-mabritec . `<br>
 `docker run -p 8080:8080 loydlconsulting/cwp-mabritec`<br>
 
+Launch in the Background<br>
+`docker-compose up -d`
+
+Stop containers<br>
+`docker-compose down`
+
 ## Access the Camunda Tasklist, Admin, Cockpit
 `http://localhost:8080`<br>
 username/password = demo/demo
