@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "node-fetch": "*"
   },
   "scripts": {
     "start": "node index.js"
